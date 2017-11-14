@@ -1,0 +1,522 @@
+
+/*Miscellaneous-------------------------------------------------------------------*/
+body {
+	margin:0px;
+	padding:0px;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*Main wrapper---------------------------------------------------------------------*/
+.Wrapper {
+	/*Don't float wrapper to the left otherwise the webpage will not be centered using margin auto*/
+	width:1350px;
+	margin:auto;	/*Center the webpage*/
+}
+/*----------------------------------------------------------------------------------*/
+
+/*Header---------------------------------------------------------------------------*/
+.fixed {
+	/*Class to fix the top of the header and keep it white as it is becoming transparent on scrolling*/
+	position:fixed;
+	background-color: #ffffff;
+}
+
+.Header {
+	float:left;
+	width:100%;
+	height:50px;
+}
+
+.Header a{
+	text-decoration:none;
+	color: black;
+}
+
+#Sections {
+	width:110px;
+	height:28px;
+	margin-left: 18px;
+	margin-top: 11px;
+	float:left;
+	border: 1px solid #e2e2e2;
+}
+
+#Home {
+	width:80px;
+	height:28px;
+	margin-left: 10px;
+	margin-top: 11px;
+	float:left;
+}
+
+#Search {
+	width:80px;
+	height:28px;
+	margin-left: 0px;
+	margin-top: 11px;
+	margin-right : 800px;
+	float:left;
+}
+
+#Sections:hover, #Home:hover, #Search:hover{
+	background-color: #e6edf0;
+}
+
+#imgSections, #imgHome, #imgSearch {
+	float:left;
+	width:14px;
+	height:14px;
+	margin-left: 10px;
+	margin-top:8px;
+	margin-bottom:10px;
+	margin-right: 5px;
+}
+
+#txtSections, #txtHome, #txtSearch {
+	float:left;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 12px;
+	margin-top:8px;
+	margin-bottom:10px;
+}
+
+#Subscribe, #Login {
+	float:left;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	width:110px;
+	height:22px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: white;
+    border-radius: 3px;
+    background-color: #326891;
+    opacity: 0.7;
+}
+
+/*Overriting the login button width*/
+#Login {
+	width : 50px;
+}
+
+#imgSetting {
+	float:left;
+	width:16px;
+	height:16px;
+	margin-left: 10px;
+	margin-top:18px;
+	margin-bottom:10px;
+	margin-right: 5px;
+	opacity: 0.6;
+}
+
+#Subscribe:hover, #Login:hover, #imgSetting:hover {
+	opacity: 1;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/*Header links---------------------------------------------------------------------*/
+.headerLinks {
+	float:left;
+	width:100%;
+}
+
+.headerLinks a{
+	text-decoration:none;
+	color: black;
+}
+
+.hLink {
+	float:left;
+	width:221px;
+	height:85px;
+	border: 1px solid #e2e2e2;
+}
+
+.hlink-img {
+	float:left;
+	width:65px;
+	height:65px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.hlink-txt {
+	float:left;
+	width:135px;
+	height:65px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*Article-P1------------------------------------------------------------------------*/
+
+#ar-1-main {
+	float:left;
+	width: 100%;
+}
+
+.Article-1 {
+	float: left;
+	width:1100px;
+	margin-top: 135px;
+	margin-left: 125px;
+	margin-left: 125px;
+}
+
+#hline-dark, #hline-light {
+	float:left;
+	width:100%;
+	border: none;
+    height: 1px;
+    /* Set the hr color */
+    background-color: #333; /* Modern Browsers */
+}
+
+#hline-light {
+	 background-color: #e3e9eb;
+}
+
+#magzine {
+	float:left;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 990px 0 0;
+}
+
+#title {
+	float:left;
+	font-family: sans-serif;
+	font-style: italic;
+    font-size: 30px;
+	font-weight: bold;
+	margin: 30px 422px 10px 0;
+}
+
+#by, #writer, #date {
+	float:left;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#writer {
+	font-weight: bold;
+	margin-left: 6px;
+	margin-right: 15px;
+}
+
+#date {
+	margin-right: 728px;
+}
+
+.social-img, .social-img-last{
+	float:left;
+	width:25px;
+	height:25px;
+	margin:5px;
+}
+
+.social-img-last {
+	margin-right: 0px;
+}
+
+.socialLinks {
+	float:left;
+}
+
+.banner {
+	float:left;
+	width : 1100px;
+	height:632px;
+}
+
+#imgDescription {
+	float:left;
+	width : 593px;
+	height:58px;
+	font-family: sans-serif;
+    font-size: 13px;
+	color:#666;
+	margin: 20px 493px 20px 0px;
+}
+
+#ar-1-text {
+	float:left;
+	width:630px;
+	margin-left: 50px;
+}
+
+.articleText {
+	float:left;
+	font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#ar-1-comment {
+	float:right;
+	width:340px;
+	margin-top: 80px;
+	margin-left: 80px;
+}
+
+#recentComments {
+	float:left;
+	width:100%;
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #326891;
+}
+
+#commentBox {
+	float:left;
+	width:100%;
+}
+
+.name{
+	float:left;
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.date {
+	float:left;
+	font-family: sans-serif;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.comment {
+	float:left;
+	font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+#commentHr {
+	float:left;
+	width:100%;
+	border: none;
+    height: 1px;
+    background-color: #e3e9eb;
+}
+
+#seeComments {
+	float:left;
+	font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 0;
+    color: #326891;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*Middle image------------------------------------------------------------------------*/
+#middleImgDiv {
+	float: left;
+	width:100%;
+}
+
+#midImg {
+	float:left;
+	width:675px;
+	height: 451px;
+	margin-right: 425px;
+	margin-top: 30px;
+}
+
+#midImgText {
+	float:left;
+	width:675px;
+	margin-right: 425px;
+	margin-top: 10px;
+	font-family: sans-serif;
+    font-size: 12px;
+    opacity: 0.7;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*Article-P2------------------------------------------------------------------------*/
+#ar-2-text {
+	float:left;
+	width:630px;
+	margin-left: 50px;
+	margin-right: 420px;
+}
+
+#bottomText {
+	float:left;
+	width:675px;
+	margin-right: 425px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+
+/*Trending------------------------------------------------------------------------*/
+#trending {
+	float:left;
+	width:100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.trending-block {
+	float:left;
+	width:700px;
+	margin-left: 0px;
+	margin-right: 60px;
+	border-top: 1px solid #e2e2e2;
+}
+
+.trending-serial {
+	float:left;
+	width:340px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: 1px solid #e2e2e2;
+}
+
+#moreText {
+	float:left;
+	margin-right: 330px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#goTo {
+	float:left;
+	margin-top: 14px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+    font-size: 10px;
+}
+
+.nextTrend-block {
+	float:left;
+	width:200px ;
+	height:240px ;
+	margin-right: 35px;
+}
+
+.nextTrend-block-corner {
+	float:left;
+	width:200px ;
+	height:240px ;
+	margin-right: 0px;
+}
+
+.nextTrend-block-img {
+	float:left;
+	width:200px ;
+	height:140px ;
+}
+
+.nextTrend-block-text {
+	float:left;
+	font-family: sans-serif;
+    font-size: 14px;
+	color:black;
+}
+
+#trend {
+	float:left;
+	width: 100%;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nextTrend-serial {
+	float:left;
+	width:100%;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.nextTrend-serial-text {
+	float:left;
+	width:280px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	color: black;
+}
+
+.nextTrend-serial-img {
+	float:left;
+	width:50px;
+	height:50px;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*Footer---------------------------------------------------------------------------*/
+.footer {
+	float:left;
+	width:950px;
+	margin : 0 200px 0 200px;
+	border-top: 1px solid #e2e2e2;
+}
+
+.footer a{
+	text-decoration: none;
+	color:black;
+}
+
+#copyright {
+	float:left;
+	margin:10px 510px 10px 0;
+	font-family: sans-serif;
+    font-size: 11px;
+    color:#9a9b9c;
+}
+
+.footerLinks {
+	float:left;
+	margin:10px 10px 10px 0;
+	font-family: sans-serif;
+    font-size: 11px;
+    color:#9a9b9c;
+}
+
+.footerLinks:after {
+	content: "  |";
+}
+
+.footerLinks-last {
+	float:left;
+	margin:10px 0px 10px 0;
+	font-family: sans-serif;
+    font-size: 11px;
+    color:#9a9b9c;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+/*---------------------------------------------------------------------------------*/
